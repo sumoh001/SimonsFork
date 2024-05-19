@@ -126,6 +126,14 @@ export class GuiModel {
                             }
                         },
                         {
+                            "type": "button",
+                            "name": { default: "EMERGENCY" },
+                            "icon": "fa-stethoscope",
+                            "color": "carrot",
+                            "page": "modulePage",
+                            "width": 3,
+                            },
+                        {
                             "type": "list",
                             "name": "ToDo",
                             "icon": "fa-user",
