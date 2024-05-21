@@ -40,3 +40,11 @@ jacocoTestReport {
 		xml.destination(file("${rootProject.projectDir}/target/site/jacoco/cov.xml"))
 	}
 }
+
+sonar {
+  properties {
+    property "sonar.projectKey", "sumoh001_SimonsFork"
+    property "sonar.organization", "sumoh001"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
